@@ -4,7 +4,8 @@
 
 An interactive Streamlit dashboard that explores how player injuries relate to team results in football. It was built for the *Mathematics for AI-II* summative assessment (Scenario 1: Player Injuries and Team Performance Dashboard).
 
-> **Live app:** `<PASTE YOUR STREAMLIT CLOUD LINK HERE>`
+> **Live app:** https://1000405footlens.streamlit.app/
+> **Screenshots Link:** https://drive.google.com/drive/folders/1Csk7eZM8xro9LvjypNOTLZiVp06B_j4R?usp=sharing 
 
 ---
 
@@ -216,27 +217,9 @@ statsmodels>=0.14
 scikit-learn>=1.4
 ```
 
-## 12. Run locally
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
 
-# 2. (Optional) create a virtual environment
-python -m venv .venv
-# Windows: .venv\Scripts\activate    macOS/Linux: source .venv/bin/activate
-
-# 3. Install dependencies
-pip install -r requirements.txt
-
-# 4. Start the app
-streamlit run app.py
-```
-
-The app opens at `http://localhost:8501`. Keep `player_injuries_impact.csv` in the same folder as `app.py`; otherwise the app shows an error and stops.
-
-## 13. Deployment instructions (Streamlit Cloud)
+## 12. Deployment instructions (Streamlit Cloud)
 
 1. Push `app.py`, `requirements.txt`, `player_injuries_impact.csv`, `mascot.png` and `README.md` to a public GitHub repository (name it as your course instructions require, for example `IADAI102(Student_id)-studentname`).
 2. Give repository access to `ai.assignments@wacpinternational.org` if your submission checklist requires it.
@@ -246,17 +229,8 @@ The app opens at `http://localhost:8501`. Keep `player_injuries_impact.csv` in t
 6. Click **Deploy** and wait for the build. If the build fails with an import error, check that every imported package is in `requirements.txt`.
 7. Copy the live URL into the **Live app** line at the top of this README and into your submission document.
 
-## 14. Limitations and responsible interpretation
 
-- **Association, not causation.** The data cannot separate the effect of an absence from opponent strength, venue, form, other absences or tactics.
-- **Short windows.** Each period covers only three matches.
-- **Missing data.** Many cells are `N.A.`; for example, rating change is available for 503 of 656 records. Tottenham has no valid injury dates, so it does not appear in month-based charts or duration averages.
-- **Unequal group sizes.** Clubs and injury types have very different record counts. Averages from one or two records are unstable (many injury types have a single record), so check the case count beside any ranking.
-- **Injury labels are case-sensitive,** so some categories are split across spellings.
-- **Ratings** are match ratings, not medical measures of recovery.
-- **Model.** Single split, a target that includes one of its inputs, and moderate R². Use it to explore patterns only.
-
-## 15. Possible improvements
+## 13. Possible improvements
 
 - Normalise injury labels (for example, lower-case them) before counting.
 - Add a minimum-records filter to the injury-impact ranking and show the sample size on every chart.
@@ -265,15 +239,15 @@ The app opens at `http://localhost:8501`. Keep `player_injuries_impact.csv` in t
 - Cross-validate the model and test variants that exclude `Avg GD Before`.
 - Add automated tests, accessibility checks and user testing with real analysts.
 
-## 16. Author and submission details
+## 14. Author and submission details
 
 | Field | Detail |
 |---|---|
-| Student full name | `<your name>` |
-| Candidate registration number | `<your number>` |
+| Student full name | `M Raksmi Priyasree` |
+| Candidate registration number | `1000405` |
 | CRS name | Artificial Intelligence |
 | Course name | Mathematics for AI-II |
-| School name | `<your school>` |
+| School name | `Jain Vidyalaya IB World School` |
 | GitHub repository | `<repository URL>` |
 | Live web app | `<Streamlit Cloud URL>` |
 
