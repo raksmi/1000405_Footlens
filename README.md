@@ -168,16 +168,7 @@ All values were recalculated from the CSV using the app's own functions.
 
 ## 9. Screenshots
 
-Add your own screenshots of the deployed app to a `screenshots/` folder and update the file names below.
-
-| Page | Screenshot |
-|---|---|
-| Home | `![Home](screenshots/home.png)` |
-| Filters (sidebar) | `![Filters](screenshots/filters.png)` |
-| Injury impact (RQ1) | `![RQ1](screenshots/rq1.png)` |
-| Injury clusters (RQ4 heatmap) | `![RQ4](screenshots/rq4.png)` |
-| Tools and prediction | `![Tools](screenshots/tools.png)` |
-| Data and methodology | `![Data](screenshots/data.png)` |
+Link: https://drive.google.com/drive/folders/1Csk7eZM8xro9LvjypNOTLZiVp06B_j4R?usp=sharing 
 
 ## 10. Project structure
 
