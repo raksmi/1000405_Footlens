@@ -5,6 +5,7 @@
 An interactive Streamlit dashboard that explores how player injuries relate to team results in football. It was built for the *Mathematics for AI-II* summative assessment (Scenario 1: Player Injuries and Team Performance Dashboard).
 
 > **Live app:** https://1000405footlens.streamlit.app/
+
 > **Screenshots Link:** https://drive.google.com/drive/folders/1Csk7eZM8xro9LvjypNOTLZiVp06B_j4R?usp=sharing 
 
 ---
