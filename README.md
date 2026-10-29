@@ -243,4 +243,4 @@ scikit-learn>=1.4
 | GitHub repository | `<repository URL>` |
 | Live web app | `<Streamlit Cloud URL>` |
 
-**Data note:** the dataset was supplied with the assessment brief. This project is for educational use.
+
